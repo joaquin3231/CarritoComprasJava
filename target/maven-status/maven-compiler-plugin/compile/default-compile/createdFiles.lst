@@ -1,0 +1,12 @@
+com\proyecto\joaquin\repositories\ProductRepo.class
+com\proyecto\joaquin\repositories\UserRepo.class
+com\proyecto\joaquin\repositories\PurchasedProducRepo.class
+com\proyecto\joaquin\models\Category.class
+com\proyecto\joaquin\CarritoComprasApplication.class
+com\proyecto\joaquin\services\ProductServ.class
+com\proyecto\joaquin\services\UserServ.class
+com\proyecto\joaquin\models\Product.class
+com\proyecto\joaquin\controllers\ProjectControllers.class
+com\proyecto\joaquin\services\PurchasedProductServ.class
+com\proyecto\joaquin\models\Purchased_product.class
+com\proyecto\joaquin\models\User.class
