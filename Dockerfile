@@ -9,7 +9,7 @@
 
 FROM openjdk:17-jdk-slim AS build
 COPY . .
-RUN ./mvnw spring-boot:run --no-daemon
+RUN ./mvnw spring-boot:run
 
 FROM openjdk:17-jdk-slim
 EXPOSE 8080
