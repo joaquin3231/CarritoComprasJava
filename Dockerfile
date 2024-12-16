@@ -7,11 +7,11 @@
 #ENTRYPOINT [ "java", "-jar", "/app.jar" ]
 
 
-FROM openjdk:17-jdk-slim AS build
+FROM openjdk:22-jdk-slim AS build
 COPY . .
 RUN ./mvnw spring-boot:run
 
-FROM openjdk:17-jdk-slim
+FROM openjdk:22-jdk-slim
 EXPOSE 8080
 COPY --from=build target/CarritoCompras-0.0.1-SNAPSHOT.jar app.jar
 
