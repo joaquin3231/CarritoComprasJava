@@ -7,7 +7,7 @@
 #ENTRYPOINT [ "java", "-jar", "/app.jar" ]
 
 
-FROM ubuntu:latest AS build
+FROM ubuntu:openjdk:17-jdk-slim AS build
 RUN apt-get update
 RUN apt-get install openjdk-17-jdk -y
 COPY . .
