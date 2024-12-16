@@ -11,8 +11,7 @@ FROM ubuntu:latest AS build
 RUN apt-get update
 RUN apt-get install openjdk-17-jdk -y
 COPY . .
-
-RUN ./mvnw spring-boot:run
+RUN ./mvn spring-boot:run --no-deamon
 
 FROM openjdk:17-jdk-slim
 EXPOSE 8080
