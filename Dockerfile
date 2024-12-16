@@ -9,12 +9,12 @@
 
 FROM ubuntu:latest AS build
 RUN apt-get update
-RUN apt get install opendjdk-17-jdk -y
+RUN apt get install amazoncorretto:17-alpine-jdk
 COPY . .
 
 RUN ./gradlew bootJar --no-deamon
 
-FROM opendjdk:17-jdk-slim
+FROM amazoncorretto:17-alpine-jdk
 EXPOSE 8080
 COPY --from=build target/CarritoCompras-0.0.1-SNAPSHOT.jar app.jar
 
