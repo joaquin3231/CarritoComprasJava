@@ -14,7 +14,7 @@ COPY . .
 
 RUN ./gradlew bootJar --no-deamon
 
-FROM opendjdk:21-jdk-slim
+FROM opendjdk:17-jdk-slim
 EXPOSE 8080
 COPY --from=build target/CarritoCompras-0.0.1-SNAPSHOT.jar app.jar
 
