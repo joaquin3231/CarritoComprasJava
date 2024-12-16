@@ -29,14 +29,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<property name="project.build.sourceEncoding" value="UTF-8" />
-		<property name="mysql.connector.charset" value="UTF-8" />
-		
-		<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/test?useSSL=false&amp;useTimezone=true&amp;serverTimezone=UTC"/>
-            <property name="javax.persistence.jdbc.user" value="root"/>
-            <property name="javax.persistence.jdbc.password" value="admin"/>
-            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-            <property name="hibernate.show_sql" value="true"/> <!-- Para mostrar las consultas SQL generadas por Hibernate -->
-            
+		<property name="mysql.connector.charset" value="UTF-8" />    
 	</properties>
 	
 	<dependencies>
