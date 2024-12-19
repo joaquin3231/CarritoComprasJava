@@ -37,8 +37,6 @@ import jakarta.validation.Valid;
 
 
 @Controller
-@RequestMapping("https://carritocomprasjava.onrender.com")
-@CrossOrigin(origins = "https://carritocomprasjava.onrender.com")
 public class ProjectControllers {
 	@Autowired
 	private UserServ userServ;
