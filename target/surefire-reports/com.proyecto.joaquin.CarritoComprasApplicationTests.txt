@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.proyecto.joaquin.CarritoComprasApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.72 s -- in com.proyecto.joaquin.CarritoComprasApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.40 s -- in com.proyecto.joaquin.CarritoComprasApplicationTests
