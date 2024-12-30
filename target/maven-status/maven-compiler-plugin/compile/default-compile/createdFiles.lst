@@ -1,5 +1,6 @@
 com\proyecto\joaquin\repositories\ProductRepo.class
 com\proyecto\joaquin\repositories\UserRepo.class
+com\proyecto\joaquin\controllers\PruebaController.class
 com\proyecto\joaquin\repositories\PurchasedProducRepo.class
 com\proyecto\joaquin\models\Category.class
 com\proyecto\joaquin\CarritoComprasApplication.class
