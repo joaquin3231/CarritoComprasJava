@@ -1,7 +1,7 @@
 FROM amazoncorretto:17-alpine-jdk
 
-COPY target/CarritoCompras-0.0.1-SNAPSHOT.jar app.jar
+COPY target/CarritoCompras-0.0.1-SNAPSHOT.war app.war
 
 EXPOSE 8080
 
-ENTRYPOINT [ "java", "-jar", "/app.jar", "--server.port=8080" ]
+ENTRYPOINT [ "java", "-war", "/app.war", "--server.port=8080" ]
