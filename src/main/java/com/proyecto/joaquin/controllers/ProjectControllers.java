@@ -35,7 +35,6 @@ import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 
 @Controller
-@RequestMapping("/hola")
 public class ProjectControllers {
 	@Autowired
 	private UserServ userServ;
